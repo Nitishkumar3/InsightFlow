@@ -15,7 +15,7 @@ def upload_image_to_wordpress(image_url, alt_text):
 def publish_wp_post(title, content, categories, thumbnail_url, thumbnail_alt, status):
     site_url = "https://techmedok.com"
     username = "nitishkumar"
-    password = "e7ecyj7zy2!"
+    password = 
 
     auth_url = f"{site_url}/wp-json/api/v1/token"
     payload = {
